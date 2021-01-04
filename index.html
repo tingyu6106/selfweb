@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="" id="page-top">
+<body class="" id="page-top"> <!-- open tag -->
     <div class="w3-top">
         <div class="w3-bar w3-text-white" style="background-color: rgba(0,0,0,0.3);font-size: 2vw;">
             <a href="#page-top" class="w3-bar-item w3-button" style="width: 25%; background-color: rgba(255,255,255,0">HOME</a>
@@ -66,11 +66,13 @@
                     <span class="w3-tag w3-round-large" style="margin-left: 1vw;">＃[attentine]</span>
                 </div>
                 
-                <!-- 目前只在電腦螢幕顯示 -->
-                <div class="w3-hide-small w3-hide-medium w3-left-align" style="margin-top: 1vw; margin-bottom: 3vw;">
-                    <h6 id="self" class="w3-center" style="font-size:8vw;">自傳</h6>
+                <!-- 全部裝置都顯示 -->
+                <h6 class="w3-center" style="font-size:8vw;"><span id="self" style="cursor: pointer; border : solid 5px rgba(0,0,0,0.7)">自傳</span></h6>
+                <div class="w3-left-align" style="margin-top: 1vw; margin-bottom: 3vw;">
+                    
 <div id="selfintro" style="display: none">                   
-                    <p style="font-size: 2vw; margin-top: 1vw;">
+<p class="w3-right-align"><span id="introclock" style="cursor:pointer;">X</span></p>                    
+    <p style="font-size: 2vw; margin-top: 1vw;">
 一個高一的女高中生,喜歡小動物,未來想走三類.</p>
                     <p style="font-size: 2vw; margin-top: 1vw;">住在中和區那裡,曾經就讀興南國小,中和國中,現在就讀市立復興高中.</p>
                     <p style="font-size: 2vw; margin-top: 1vw;">國中有當過圖書館的工讀生,還有學過一點合氣道,高中社團又是柔道社,所以還會一點點柔道.</p>
@@ -232,7 +234,7 @@
 
         <p style="1vw;"> power by [婷喻]</p>
     </section>
-<scritp src="js/demo.js""></scritp>
-                       </body> 
+<scritp src="js/demo.js"></scritp>
+                       </body>  <!-- close tag -->
 
 </html>
